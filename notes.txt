@@ -1,0 +1,12 @@
+docker build -t my-python-app . ## собрать
+
+docker run my-python-app ##запустить
+
+# Запуск в интерактивном режиме
+docker run -it my-python-app
+
+# Просмотр образов
+docker images
+
+# Удаление образа
+docker rmi my-python-app
